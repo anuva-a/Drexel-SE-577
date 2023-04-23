@@ -1,5 +1,5 @@
-# Drexel-CS-577
-GitHub repo for academic course CS 577
+# Drexel-SE-577
+GitHub repo for academic course SE 577
 
 ### Name
 #### Atandrila Anuva
