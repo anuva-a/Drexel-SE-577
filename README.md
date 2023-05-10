@@ -3,5 +3,5 @@ GitHub repo for academic course SE 577
 
 ### Name
 #### Atandrila Anuva
-#### I am a graduating senior. I want to explore the area of Software Architecture since. I am hoping to be able to implement my learnings post graduation. 
+#### I am a graduating senior. I want to explore the area of Software Architecture. I am hoping to be able to implement my learnings post graduation. 
 
