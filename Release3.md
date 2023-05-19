@@ -9,16 +9,21 @@ Navigate to the follwoing path
 ./myapp/
 ```
 ### Step 2
+Fetch the GitHub Access Token from the BlackBoard Submission. Create a `.env` file in `myapp/` directory. Paste the GitHub Access Token as follows
+```
+REACT_APP_GITHUB_ACCESS_TOKEN={YOUR_GITHUB_ACCESS_TOKEN}
+```
+### Step 3
 Install Packages
 ```
 npm install
 ```
-### Step 3
+### Step 4
 Start the server and
 Start the React App by running the following
 ```
 npm start
 ```
-### Step 4
+### Step 5
 #### Test the app
-1. Successfully running the app should display the naviagtion bar and the Hello World fetched from the Gist
+Successfully running the app should display the naviagtion bar and the Hello World fetched from the Gist
