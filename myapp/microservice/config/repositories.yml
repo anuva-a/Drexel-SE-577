@@ -1,0 +1,14 @@
+repositories:
+  - name: repository-1
+    description: This is the first repository
+    language: JavaScript
+    branches: 3
+  - name: repository-2
+    description: This is the second repository
+    language: Java
+    branches: 1
+  - name: repository-3
+    description: This is the third repository
+    language: C
+    branches: 12
+    
