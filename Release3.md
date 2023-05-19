@@ -9,6 +9,11 @@ Navigate to the follwoing path
 ./myapp/
 ```
 ### Step 2
+Install Packages
+```
+npm install
+```
+### Step 3
 Start the server and
 Start the React App by running the following
 ```
