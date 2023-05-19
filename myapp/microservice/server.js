@@ -6,7 +6,9 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const config = yaml.parse(fs.readFileSync('/Users/anuva/Documents/Academic terms/Spring 2022-23/SE 577/Drexel-SE-577/myapp/src/microservice/config/repositories.yml', 'utf8'));
+const path = require('path');
+const configPath = path.join(__dirname, 'config', 'repositories.yml');
+const config = yaml.parse(fs.readFileSync(configPath, 'utf8'));
 
 app.use(cors()); // enable CORS
 
