@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
+import GistDisplay from './components/GistDisplay';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import About from './pages/About';
@@ -9,7 +10,7 @@ import RepoDetails from './pages/RepoDetails';
 
 export default function App() {
   return (
-    <div className="App">
+    <><div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -17,6 +18,8 @@ export default function App() {
         <Route path="repolist" element={<RepoList />} />
         <Route path="repodetails" element={<RepoDetails />} />
       </Routes>
-    </div>
+    </div><div>
+        <GistDisplay />
+      </div></>
   );
 }
