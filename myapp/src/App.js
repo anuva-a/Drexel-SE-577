@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import About from './pages/About';
 import RepoList from './pages/RepoList';
 import RepoDetails from './pages/RepoDetails';
+import RepoCommits from './pages/RepoCommits';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="login" element={<Login />} />
         <Route path="repolist" element={<RepoList />} />
         <Route path="repodetails" element={<RepoDetails />} />
+        <Route path="repolist/commits/:repoName" element={<RepoCommits />} />
       </Routes>
     </div><div>
         <GistDisplay />
